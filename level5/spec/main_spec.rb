@@ -2,8 +2,6 @@
 
 require_relative '../main'
 
-require 'pry'
-
 describe '#run' do
   let(:input_spec_path) { 'spec/input.json' }
   let(:output_spec_path) { 'spec/output.json' }

@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-require 'pry'
 
 class RentalCashData
   attr_reader :id, :driver_part, :owner_part, :insurance_part, :assistance_part, :drivy_part

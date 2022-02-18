@@ -2,7 +2,6 @@ require_relative '../../models/rental_price'
 require_relative '../../models/rental_option'
 require_relative '../../models/rental'
 require_relative '../../models/car'
-require 'pry'
 
 describe 'RentalPrice' do
   let(:car) { Car.new(id: 1, price_per_day: 2000, price_per_km: 10) }

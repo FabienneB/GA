@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-require 'pry'
 
 class RentalPrice
   attr_reader :price, :car, :rental, :gps_price, :baby_seat_price, :additional_insurance_price
