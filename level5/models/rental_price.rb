@@ -3,6 +3,7 @@
 class RentalPrice
   attr_reader :price, :car, :rental, :gps_price, :baby_seat_price, :additional_insurance_price
   def initialize(params = {})
+    # keyword argument ? default value for decreasing
     @decreasing_duration_price = params[:decreasing_duration_price].nil? ? true : params[:decreasing_duration_price]
     @rental = params[:rental]
     @car = params[:car]

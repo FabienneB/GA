@@ -1,7 +1,7 @@
 require_relative '../../repositories/car_repository'
 require_relative '../../repositories/rental_repository'
 require_relative '../../repositories/rental_option_repository'
-
+require 'pathname'
 
 describe 'RentalRepository' do
   let(:json_path) { "spec/input.json" }

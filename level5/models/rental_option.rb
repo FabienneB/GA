@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class RentalOption
-  attr_reader :id, :day_price, :rental_id, :type
+  attr_reader :id, :rental_id, :type
   def initialize(params = {})
     @id = params[:id]
     @rental_id = params[:rental_id]

@@ -6,6 +6,8 @@ require_relative 'controllers/controller'
 
 
 def run(inputpath, outputpath)
+  # TODO
+  # parse and load input file once and inject it
   car_repo = CarRepository.new(inputpath)
   option_repo = RentalOptionRepository.new(inputpath)
   rental_repo = RentalRepository.new(inputpath, option_repo)
